@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Montserrat:wght@700&display=swap');
+
+html {
+    font-size: 62.5%;
+    background: url("images/background.jpg") center/cover no-repeat fixed;
+}
+
+body {
+    color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    line-height: 1.6;
+    padding: 20px;
+}
+
