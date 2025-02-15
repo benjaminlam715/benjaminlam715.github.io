@@ -44,3 +44,24 @@ ul.main-menu li a:hover, ul.main-menu li a.active {
     color: #fff;
     border-bottom-color: #EF6D3D;
 }
+
+.gif-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: black;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.8);
+}
+
+.gif-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
