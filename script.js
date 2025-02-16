@@ -1,17 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
-    function updateView() {
-        var region = location.hash || "#home"; 
-        
-        if (!document.querySelector(region)) {
-            region = "#home";
-        }
-
-        document.querySelectorAll("#container > div").forEach(div => div.classList.add("hide"));
-        document.querySelector(region).classList.remove("hide");
-
-        document.querySelectorAll(".main-menu a").forEach(a => a.classList.remove("active"));
-        document.querySelector(`.main-menu a[href="${region}"]`)?.classList.add("active");
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    const updateView = () => {
+        let reg = document.querySelector(location.hash) ? location.hash : "#home";
+        document.querySelectorAll("#container > div").forEach(div => div.classList.toggle("hide", div.id !== reg.substring(1)));
+        document.querySelectorAll(".main-menu a").forEach(a => a.classList.toggle("active", a.getAttribute("href") === reg));
+    };
 
     window.addEventListener("hashchange", updateView);
     updateView();
