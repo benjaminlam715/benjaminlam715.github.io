@@ -2,7 +2,7 @@
 
 html {
     font-size: 62.5%;
-    background: url("images/background.jpg") center/cover no-repeat fixed;
+    background: url("background.jpg") center/cover no-repeat fixed;
 }
 
 body {
@@ -64,4 +64,8 @@ ul.main-menu li a:hover, ul.main-menu li a.active {
     max-height: 100%;
     object-fit: contain;
     border-radius: 5px;
+}
+
+.hide {
+    display: none;
 }
