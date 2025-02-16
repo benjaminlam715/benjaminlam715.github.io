@@ -94,7 +94,8 @@ ul.main-menu li a:hover, ul.main-menu li a.active {
 
 .content-box {
     background: rgba(0, 0, 0, 0.7);
-    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 10px;
     text-align: center;
     margin: auto;
