@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html {
@@ -58,6 +58,14 @@ ul.main-menu li a {
 ul.main-menu li a:hover, ul.main-menu li a.active {
     color: #fff;
     border-bottom-color: #EF6D3D;
+}
+
+#container {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
 
 .gif-box {
