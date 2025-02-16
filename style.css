@@ -78,3 +78,9 @@ ul.main-menu li a:hover, ul.main-menu li a.active {
     max-width: 1000px;
     margin: auto;
 }
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
