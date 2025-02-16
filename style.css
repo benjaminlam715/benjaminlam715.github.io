@@ -63,7 +63,6 @@ ul.main-menu li a:hover, ul.main-menu li a.active {
 #container {
     font-family: "Jersey 15", sans-serif;
     font-size: 1.8rem;
-    text-transform: uppercase;
     text-align: center;
     color: white;
 }
