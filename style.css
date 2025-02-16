@@ -102,6 +102,10 @@ ul.main-menu li a:hover, ul.main-menu li a.active {
     gap: 20px;
 }
 
+.content-box p {
+    margin-bottom: 20px;
+}
+
 p {
     max-width: 350px;
     margin: 0 auto;
